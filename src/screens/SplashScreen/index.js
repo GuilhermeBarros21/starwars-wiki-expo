@@ -1,6 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View, } from 'react-native';
-import { Text, Logo } from'../../components';
+import { StatusBar } from 'expo-status-bar'
+import { StyleSheet, View } from 'react-native'
+import { Text, Logo } from '../../components'
 
 export const SplashScreen = () => {
   return (
@@ -9,7 +9,7 @@ export const SplashScreen = () => {
       <Text>StarWars - Wiki</Text>
       <StatusBar style="auto" />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -19,4 +19,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})
